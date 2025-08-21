@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Deno Unified Proxy
 
 统一 API 代理服务，支持通用代理和 Gemini 防截断功能，部署在 Deno Deploy 平台。
@@ -128,3 +129,6 @@ CACHE_SIZE=1000
 ## 许可证
 
 MIT License
+=======
+# anti-truncate
+>>>>>>> 0bafcecd14f5958d300c2932a56b1f99a90c7921
