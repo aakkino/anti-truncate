@@ -2,9 +2,9 @@
  * @fileoverview Core proxy handler for generic services.
  */
 
-import { GENERIC_SERVICES, BLACKLISTED_HEADERS, CORS_HEADERS } from '@/config/services.ts';
-import { BufferedLogger, PathParser, createErrorResponse, categorizeError } from '@/utils.ts';
-import { DEFAULT_CONFIG } from '@/constants.ts';
+import { GENERIC_SERVICES, BLACKLISTED_HEADERS, CORS_HEADERS } from '../config/services.ts';
+import { BufferedLogger, PathParser, createErrorResponse, categorizeError } from '../utils.ts';
+import { DEFAULT_CONFIG } from '../constants.ts';
 
 const pathParser = new PathParser();
 
