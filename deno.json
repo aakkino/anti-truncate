@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Unified API proxy with Gemini anti-truncation support for Deno Deploy",
   "type": "module",
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom"],
+    "strict": true
+  },
   "tasks": {
     "dev": "deno run --allow-net --allow-env src/main.ts",
     "test": "deno test --allow-net src/",

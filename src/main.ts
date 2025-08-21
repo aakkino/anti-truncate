@@ -4,7 +4,7 @@
 
 import { handleRequest } from './handlers/proxy.ts';
 import { handleGeminiAntiRequest } from './handlers/gemini-anti.ts';
-import { createOptionsResponse, getClientId, RateLimiter, BufferedLogger } from './utils.ts';
+import { createOptionsResponse, getClientId, RateLimiter, BufferedLogger, createErrorResponse } from './utils.ts';
 import { GENERIC_SERVICES, SPECIAL_SERVICES, getEnvConfig } from './config/services.ts';
 import { DEFAULT_CONFIG } from './constants.ts';
 import { MonitoringService } from './services/monitoring.ts';
