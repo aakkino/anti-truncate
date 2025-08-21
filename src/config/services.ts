@@ -19,7 +19,6 @@ export const GENERIC_SERVICES = new Map([
   ["cohere", "api.cohere.ai"],
   ["huggingface", "api-inference.huggingface.co"],
   ["together", "api.together.xyz"],
-  ["novita", "api.novita.ai"],
   ["portkey", "api.portkey.ai"],
   ["fireworks", "api.fireworks.ai"],
   ["targon", "api.targon.com"],
