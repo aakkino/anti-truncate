@@ -2,8 +2,8 @@
  * @fileoverview Enhanced monitoring and health check endpoints.
  */
 
-import { BufferedLogger } from '@/utils.ts';
-import { GENERIC_SERVICES, SPECIAL_SERVICES } from '@/config/services.ts';
+import { BufferedLogger } from '../utils.ts';
+import { GENERIC_SERVICES, SPECIAL_SERVICES } from '../config/services.ts';
 
 interface ServiceHealth {
   name: string;

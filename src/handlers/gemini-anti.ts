@@ -14,8 +14,8 @@ import {
   RETRYABLE_STATUS_CODES,
   DEFAULT_CONFIG,
   PERFORMANCE_CONFIG
-} from '@/constants.ts';
-import { BufferedLogger, createErrorResponse } from '@/utils.ts';
+} from '../constants.ts';
+import { BufferedLogger, createErrorResponse } from '../utils.ts';
 
 interface GeminiRequest {
   contents: Array<{
